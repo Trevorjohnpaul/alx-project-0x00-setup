@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Card from "@/components/Card";
+
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
