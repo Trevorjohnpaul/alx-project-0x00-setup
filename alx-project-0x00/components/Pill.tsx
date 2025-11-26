@@ -1,14 +1,14 @@
 import React from "react";
 
 interface PillProps {
-  title: string;
+  title: string; // this allows the dynamic string for each Pill
 }
 
 const Pill: React.FC<PillProps> = ({ title }) => {
   return (
-    <div className="px-3 py-1 bg-gray-200 text-gray-700 rounded-full text-sm font-medium">
+    <span className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">
       {title}
-    </div>
+    </span>
   );
 };
 
